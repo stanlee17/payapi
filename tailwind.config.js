@@ -12,6 +12,10 @@ module.exports = {
         lightSanJuanBlue: ' #6c8294',
       },
     },
+    fontFamily: {
+      sans: ['Public Sans', 'sans-serif'],
+      serif: ['DM Serif Display', 'serif'],
+    },
   },
   plugins: [],
 };
