@@ -11,6 +11,9 @@ module.exports = {
         charmPink: '#da6d97',
         lightSanJuanBlue: ' #6c8294',
       },
+      dropShadow: {
+        primary: '25px 25px 80px rgba(54, 83, 107, 0.300727)',
+      },
     },
     maxWidth: {
       '1/2': '50%',

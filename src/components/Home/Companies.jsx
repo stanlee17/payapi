@@ -12,7 +12,7 @@ import Nvidia from '../svg/Nvidia';
 
 const Companies = () => {
   return (
-    <div className="py-40 bg-mirageBlue text-linkWaterWhite">
+    <div className="py-40 bg-mirageBlue text-linkWaterWhite relative">
       <div className="container mx-auto flex justify-between relative">
         <div className="max-w-2/5 z-50">
           <h2 className="font-serif text-5xl mb-5">Who we work with</h2>
@@ -30,22 +30,22 @@ const Companies = () => {
             About Us
           </PAButtonLink>
         </div>
-        <div className="flex flex-col justify-center items-center">
+        <div className="flex flex-col justify-center">
           <div className="flex items-center">
-            <Tesla fill="#fbfcfe" className="p-5" />
-            <Microsoft fill="#fbfcfe" className="p-5" />
-            <Hewlett fill="#fbfcfe" className="p-5" />
+            <Tesla fill="#fbfcfe" className="px-10 py-5" />
+            <Microsoft fill="#fbfcfe" className="px-10 py-5" />
+            <Hewlett fill="#fbfcfe" className="px-10 py-5" />
           </div>
-          <div className="flex items-center">
-            <Oracle fill="#fbfcfe" className="p-5" />
-            <Google fill="#fbfcfe" className="p-5" />
-            <Nvidia fill="#fbfcfe" className="p-5" />
+          <div className="flex items-center justify-between">
+            <Oracle fill="#fbfcfe" className="px-10 py-5" />
+            <Google fill="#fbfcfe" className="px-10 py-5" />
+            <Nvidia fill="#fbfcfe" className="px-10 py-5" />
           </div>
         </div>
         <img
           src={bgCircle}
           alt="bg-circle"
-          className="absolute -bottom-[6rem] -left-[25rem] z-0"
+          className="absolute -bottom-20 -left-[25rem] z-0"
         />
       </div>
     </div>
