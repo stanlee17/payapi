@@ -12,6 +12,13 @@ module.exports = {
         lightSanJuanBlue: ' #6c8294',
       },
     },
+    maxWidth: {
+      '1/2': '50%',
+      '1/3': '33.333333%',
+      '2/3': '66.666667%',
+      '1/4': '25%',
+      '2/5': '40%',
+    },
     fontFamily: {
       sans: ['Public Sans', 'sans-serif'],
       serif: ['DM Serif Display', 'serif'],

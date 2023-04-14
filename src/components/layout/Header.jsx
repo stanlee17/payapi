@@ -5,7 +5,7 @@ import Logo from '../../assets/shared/desktop/logo.svg';
 
 const Header = () => {
   return (
-    <header className="p-10">
+    <header className="py-10">
       <div className="container mx-auto flex items-center justify-between">
         <div className="flex items-center text-lightSanJuanBlue font-bold ">
           <Link to="/" className="mr-16">

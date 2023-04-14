@@ -6,9 +6,9 @@ import PAButton from '../common/PAButton';
 
 const Hero = () => {
   return (
-    <div>
-      <div className="container mx-auto flex items-center py-52  relative">
-        <div className="w-2/5">
+    <div className="bg-linkWaterWhite relative z-10">
+      <div className="container mx-auto flex items-center py-60 relative">
+        <div className="max-w-2/5">
           <h1 className="pb-10 font-serif text-7xl text-sanJuanBlue">
             Start building with our APIs for absolutely free.
           </h1>
@@ -35,12 +35,12 @@ const Hero = () => {
         <img
           src={PhoneMockup}
           alt="phone-mockup"
-          className="w-[34rem] absolute top-0 right-0 z-50"
+          className="max-w-[34rem] absolute top-0 right-0 z-50"
         />
         <img
           src={bgCircle}
           alt="bg-circle"
-          className="absolute w-[65rem] -top-96 -right-96"
+          className="absolute min-w-[65rem] bottom-52 -right-96"
         />
       </div>
     </div>
