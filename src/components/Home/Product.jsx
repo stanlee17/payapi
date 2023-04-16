@@ -9,7 +9,7 @@ import TotalPaymentSuccess from '../../assets/home/desktop/illustration-phone-pa
 const Product = () => {
   return (
     <div>
-      <div className="container mx-auto">
+      <div className="container mx-auto py-16">
         <div className="flex items-center py-48">
           <img
             src={EasyToImplement}

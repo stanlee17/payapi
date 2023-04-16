@@ -8,7 +8,7 @@ import Payments from '../../assets/home/desktop/icon-consumer-payments.svg';
 const WhyUs = () => {
   return (
     <div>
-      <div className="container mx-auto my-48 flex leading-loose">
+      <div className="container mx-auto my-28 flex leading-loose">
         <div className="flex flex-col items-center text-center mr-16">
           <img src={Finance} alt="personal-finances" className="mb-8" />
           <h4 className="mb-3 font-bold text-lg text-sanJuanBlue">

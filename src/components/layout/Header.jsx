@@ -1,7 +1,9 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import PAButton from '../common/PAButton';
-import Logo from '../../assets/shared/desktop/logo.svg';
+
+// Import svg images
+import Logo from '../svg/Logo';
 
 const Header = () => {
   return (
@@ -9,23 +11,23 @@ const Header = () => {
       <div className="container mx-auto flex items-center justify-between">
         <div className="flex items-center text-lightSanJuanBlue font-bold ">
           <Link to="/" className="mr-16">
-            <img src={Logo} alt="payapi-logo" />
+            <Logo fill="#36536b" />
           </Link>
           <Link
             to="/pricing"
-            className="mr-9 transition ease-in-out duration-300 hover:text-sanJuanBlue"
+            className="mr-10 transition ease-in-out duration-300 hover:text-sanJuanBlue"
           >
             Pricing
           </Link>
           <Link
             to="/about"
-            className="mr-9 transition ease-in-out duration-300 hover:text-sanJuanBlue"
+            className="mr-10 transition ease-in-out duration-300 hover:text-sanJuanBlue"
           >
             About
           </Link>
           <Link
             to="/contact"
-            className="mr-9 transition ease-in-out duration-300 hover:text-sanJuanBlue"
+            className="mr-10 transition ease-in-out duration-300 hover:text-sanJuanBlue"
           >
             Contact
           </Link>

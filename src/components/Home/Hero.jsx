@@ -16,7 +16,7 @@ const Hero = () => {
             <input
               type="email"
               placeholder="Enter email address"
-              className="pl-7 pr-20 py-3 rounded-full outline-none"
+              className="pl-7 pr-32 py-3 rounded-full outline-none"
             />
             <PAButton className="-ml-10 z-50 relative">
               Schedule a Demo
