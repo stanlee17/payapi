@@ -24,8 +24,7 @@ const Companies = () => {
           </p>
           <PAButtonLink
             to="/about"
-            color="linkWaterWhite"
-            className="font-bold"
+            className="font-bold text-linkWaterWhite border-linkWaterWhite"
           >
             About Us
           </PAButtonLink>

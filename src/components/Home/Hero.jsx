@@ -7,7 +7,7 @@ import PAButton from '../common/PAButton';
 const Hero = () => {
   return (
     <div className="bg-linkWaterWhite relative z-10">
-      <div className="container mx-auto flex justify-between items-center py-20 relative">
+      <div className="container mx-auto flex justify-between items-center py-28 relative">
         <div className="max-w-2/5">
           <h1 className="pb-10 font-serif text-7xl text-sanJuanBlue">
             Start building with our APIs for absolutely free.
