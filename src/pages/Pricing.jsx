@@ -125,7 +125,7 @@ const Pricing = () => {
               </PAButtonLink>
             </div>
           </div>
-          <div className="mr-16">
+          <div>
             <div className="my-7">
               <h3 className="text-darkPink font-serif text-3xl my-5">
                 Premium Plan
@@ -139,7 +139,7 @@ const Pricing = () => {
               <h2 className="font-serif text-6xl mb-8 text-sanJuanBlue">
                 $499.00
               </h2>
-              <div className="border-t border-b border-[#C0CBD5]">
+              <div className="border-t border-b border-solid border-[#C0CBD5]">
                 <ul className="my-8">
                   <li className="mb-4 text-sanJuanBlue flex items-center">
                     <Checkmark color="#BA4270" />
