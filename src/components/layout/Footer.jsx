@@ -12,21 +12,23 @@ import LinkedIn from '../../assets/shared/desktop/linkedin.svg';
 const Footer = () => {
   return (
     <footer className="py-3 bg-mirageBlue">
-      <div className="container mx-auto py-10 relative">
-        <div className="flex justify-between">
-          <div className="flex items-center font-bold text-neutral-300">
-            <Link to="/" className="mr-16">
+      <div className="container mx-auto px-6 py-10 relative">
+        <div className="flex justify-between max-sm:flex-col max-sm:items-center">
+          <div className="flex items-center font-bold text-neutral-300 z-50 max-sm:flex-col">
+            <Link to="/" className="mr-16 max-sm:mr-0 max-sm:mb-5">
               <Logo fill="#fbfcfe" />
             </Link>
-            <Link to="/pricing" className="mr-10">
+            <Link to="/pricing" className="mr-10 max-sm:mr-0 max-sm:my-5">
               Pricing
             </Link>
-            <Link to="/about" className="mr-10">
+            <Link to="/about" className="mr-10 max-sm:mr-0 max-sm:mb-5">
               About
             </Link>
-            <Link to="/contact">Contact</Link>
+            <Link to="/contact" className="max-sm:mb-5">
+              Contact
+            </Link>
           </div>
-          <div className="flex items-center">
+          <div className="flex items-center z-50 max-sm:mt-5">
             <Link to="/" className="mr-6">
               <img src={Facebook} alt="facebook" />
             </Link>
@@ -40,7 +42,7 @@ const Footer = () => {
           <img
             src={bgCircle}
             alt="bg-circle"
-            className="absolute -top-32 -right-[33rem]"
+            className="absolute -top-32 -right-[33rem] max-lg:-right-[25rem] max-sm:top-48 max-sm:right-0"
           />
         </div>
       </div>

@@ -49,7 +49,7 @@ const About = () => {
         />
       </div>
 
-      <div className="container mx-auto flex justify-between mt-20 mb-10">
+      <div className="container mx-auto px-6 flex justify-between mt-20 mb-10">
         <div className="border-y border-solid border-[#C0CBD5] w-1/3 mr-10 my-10">
           <p className="text-lightSanJuanBlue mt-5 mb-2">Team Members</p>
           <h1 className="text-darkPink font-serif text-6xl mb-5">300+</h1>

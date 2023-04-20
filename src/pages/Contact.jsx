@@ -2,6 +2,7 @@ import React from 'react';
 import PAButtonLink from '../components/common/PAButtonLink';
 
 // Import images
+import bgCircle from '../assets/shared/desktop/bg-pattern-circle.svg';
 import Tesla from '../components/svg/Tesla';
 import Microsoft from '../components/svg/Microsoft';
 import Hewlett from '../components/svg/Hewlett';
@@ -12,7 +13,12 @@ import Nvidia from '../components/svg/Nvidia';
 const Contact = () => {
   return (
     <div>
-      <div className="container mx-auto">
+      <div className="container mx-auto px-6 my-16 relative">
+        <img
+          src={bgCircle}
+          alt="bg-circle"
+          className="absolute -top-[43rem] -right-[18rem]"
+        />
         <div className="my-12">
           <h1 className="font-serif text-6xl text-sanJuanBlue w-1/2">
             Submit a help request and we’ll get in touch shortly.
@@ -55,7 +61,7 @@ const Contact = () => {
                   API
                 </label>
               </div>
-              <PAButtonLink className="text-sanJuanBlue border-sanJuanBlue font-bold px-12">
+              <PAButtonLink className="text-sanJuanBlue border-sanJuanBlue font-bold px-16">
                 Submit
               </PAButtonLink>
             </form>

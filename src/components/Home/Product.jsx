@@ -9,15 +9,15 @@ import TotalPaymentSuccess from '../../assets/home/desktop/illustration-phone-pa
 const Product = () => {
   return (
     <div>
-      <div className="container mx-auto py-16">
-        <div className="flex items-center py-48">
+      <div className="container mx-auto px-6 py-16">
+        <div className="flex items-center py-48 max-lg:py-36 max-lg:flex-col">
           <img
             src={EasyToImplement}
             alt="easy-to-implement"
-            className="drop-shadow-primary w-[35rem]"
+            className="drop-shadow-primary w-[35rem] max-lg:w-[30rem]"
           />
-          <div className="ml-32 max-w-1/3 leading-loose">
-            <h2 className="mb-5 font-serif text-5xl text-sanJuanBlue">
+          <div className="ml-32 w-1/3 leading-loose max-lg:w-10/12 max-lg:ml-0 max-lg:text-center">
+            <h2 className="mb-5 font-serif text-5xl text-sanJuanBlue max-lg:mt-10">
               Easy to implement
             </h2>
             <p className="text-lightSanJuanBlue">
@@ -27,9 +27,9 @@ const Product = () => {
             </p>
           </div>
         </div>
-        <div className="flex justify-between items-center relative">
-          <div className="max-w-1/3 leading-loose">
-            <h2 className="mb-5 font-serif text-5xl text-sanJuanBlue">
+        <div className="flex justify-between items-center relative max-lg:flex-col-reverse">
+          <div className="w-1/3 leading-loose max-lg:w-10/12 max-lg:text-center">
+            <h2 className="mb-5 font-serif text-5xl text-sanJuanBlue max-lg:mt-16">
               Simple UI & UX
             </h2>
             <p className="text-lightSanJuanBlue">
@@ -41,18 +41,18 @@ const Product = () => {
             <img
               src={TotalPayment}
               alt="easy-to-implement"
-              className="mr-12 drop-shadow-primary"
+              className="mr-8 drop-shadow-primary max-lg:w-[12rem] max-sm:w-[9rem]"
             />
             <img
               src={TotalPaymentSuccess}
               alt="easy-to-implement"
-              className="drop-shadow-primary z-50"
+              className="drop-shadow-primary z-50 max-lg:w-[12rem] max-sm:w-[9rem]"
             />
           </div>
           <img
             src={bgCircle}
             alt="bg-circle"
-            className="absolute -right-[35rem]"
+            className="absolute -right-[35rem] max-lg:hidden"
           />
         </div>
       </div>

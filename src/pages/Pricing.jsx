@@ -7,7 +7,7 @@ import PAButtonLink from '../components/common/PAButtonLink';
 const Pricing = () => {
   return (
     <div>
-      <div className="container mx-auto my-16 relative">
+      <div className="container mx-auto px-6 my-16 relative">
         <img
           src={bgCircle}
           alt="bg-circle"
