@@ -13,17 +13,17 @@ import Nvidia from '../components/svg/Nvidia';
 const Contact = () => {
   return (
     <div>
-      <div className="container mx-auto px-6 my-16 relative">
+      <div className="container mx-auto px-6 my-16 relative max-xl:px-20 max-sm:px-6">
         <img
           src={bgCircle}
           alt="bg-circle"
-          className="absolute -top-[43rem] -right-[18rem]"
+          className="absolute -top-[43rem] -right-[18rem] max-sm:-top-[33rem] max-sm:-right-[13rem]"
         />
         <div className="my-12">
-          <h1 className="font-serif text-6xl text-sanJuanBlue w-1/2">
+          <h1 className="font-serif text-6xl text-sanJuanBlue w-1/2 max-xl:text-center max-xl:w-full max-xl:text-5xl relative z-50">
             Submit a help request and we’ll get in touch shortly.
           </h1>
-          <div className="flex justify-between my-12">
+          <div className="flex justify-between my-12 max-xl:flex-col">
             <form className="">
               <input
                 type="text"
@@ -61,25 +61,21 @@ const Contact = () => {
                   API
                 </label>
               </div>
-              <PAButtonLink className="text-sanJuanBlue border-sanJuanBlue font-bold px-16">
+              <PAButtonLink className="text-sanJuanBlue border-sanJuanBlue font-bold px-[3.5rem]">
                 Submit
               </PAButtonLink>
             </form>
-            <div className="flex flex-col justify-center">
-              <h3 className="font-serif text-2xl text-lightSanJuanBlue w-3/4">
+            <div className="flex flex-col justify-center max-xl:my-16">
+              <h3 className="ml-10 font-serif text-2xl text-lightSanJuanBlue w-3/4 max-xl:text-center max-xl:ml-0 max-xl:w-full max-xl:mb-5 max-sm:mb-8">
                 Join the thousands of innovators already building with us
               </h3>
-              <div className="flex flex-col">
-                <div className="flex items-center">
-                  <Tesla fill="#36536B" className="pr-5 py-5" />
-                  <Microsoft fill="#36536B" className="px-10 py-5" />
-                  <Hewlett fill="#36536B" className="px-10 py-5" />
-                </div>
-                <div className="flex items-center justify-between">
-                  <Oracle fill="#36536B" className="pr-5 py-5" />
-                  <Google fill="#36536B" className="px-10 py-5" />
-                  <Nvidia fill="#36536B" className="px-10 py-5" />
-                </div>
+              <div className="grid items-center justify-items-center grid-cols-3 gap-0 h-[10rem] max-sm:grid-cols-2">
+                <Tesla fill="#36536B" className="max-sm:pb-8" />
+                <Microsoft fill="#36536B" className="max-sm:pb-8" />
+                <Hewlett fill="#36536B" className="max-sm:pb-8" />
+                <Oracle fill="#36536B" className="max-sm:pb-8" />
+                <Google fill="#36536B" className="max-sm:pb-8" />
+                <Nvidia fill="#36536B" className="max-sm:pb-8" />
               </div>
             </div>
           </div>

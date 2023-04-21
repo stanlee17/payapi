@@ -10,7 +10,7 @@ const Header = () => {
   return (
     <header className="py-10">
       <div className="container mx-auto px-6 flex items-center justify-between">
-        <div className="flex items-center text-lightSanJuanBlue font-bold ">
+        <div className="flex items-center text-lightSanJuanBlue font-bold z-50">
           <Link to="/" className="mr-16">
             <Logo fill="#36536b" />
           </Link>
