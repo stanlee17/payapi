@@ -5,16 +5,16 @@ import Background from '../assets/about/desktop/image-team-members.jpg';
 const About = () => {
   return (
     <div>
-      <div className="container mx-auto px-28 my-16 py-10 leading-loose relative max-lg:px-6 max-sm:text-center">
+      <div className="container mx-auto px-28 my-16 py-10 leading-loose relative max-lg:px-6 max-sm:text-center max-md:mb-5 max-md:mt-0">
         <img
           src={bgCircle}
           alt="bg-circle"
           className="absolute -top-[43rem] -right-[18rem] max-sm:-top-[33rem] max-sm:-right-[13rem]"
         />
-        <h1 className="font-serif text-6xl text-sanJuanBlue mb-20 w-3/5 relative z-50 max-md:w-full max-md:text-5xl max-sm:text-3xl max-sm:mb-16">
+        <h1 className="font-serif text-6xl text-sanJuanBlue mb-20 w-3/5 relative z-50 max-md:w-full max-md:text-5xl max-sm:text-3xl max-sm:mb-12">
           We empower innovators by delivering access to the financial system
         </h1>
-        <div className="flex justify-between mb-16 max-sm:flex-col max-sm:items-center">
+        <div className="flex justify-between mb-16 max-sm:flex-col max-sm:items-center max-md:mb-8">
           <h4 className="font-serif text-3xl text-sanJuanBlue max-sm:text-2xl max-sm:mb-3">
             Our Vision
           </h4>
@@ -26,7 +26,7 @@ const About = () => {
             services through technology.
           </p>
         </div>
-        <div className="flex justify-between max-sm:flex-col max-sm:items-center">
+        <div className="flex justify-between max-sm:flex-col max-sm:items-center max-md:mb-8">
           <h4 className="font-serif text-3xl text-sanJuanBlue max-sm:text-2xl max-sm:mb-3">
             Our Business
           </h4>
@@ -76,9 +76,11 @@ const About = () => {
         </div>
       </div>
 
-      <div className="container mx-auto px-28 pt-10 leading-loose max-lg:px-6 max-sm:text-center">
+      <div className="container mx-auto px-28 pt-10 leading-loose max-lg:px-6 max-sm:text-center max-md:mb-12 max-md:pt-5">
         <div className="flex justify-between mb-16 max-sm:flex-col max-sm:items-center">
-          <h4 className="font-serif text-3xl text-sanJuanBlue">The Culture</h4>
+          <h4 className="font-serif text-3xl text-sanJuanBlue max-sm:text-2xl max-sm:mb-3">
+            The Culture
+          </h4>
           <p className="text-lightSanJuanBlue w-9/12 pl-20 max-sm:pl-0">
             We strongly believe there's always an opportunity to learn from each
             other outside of day-to-day work, whether it's company-wide
@@ -87,8 +89,10 @@ const About = () => {
             title.
           </p>
         </div>
-        <div className="flex justify-between mb-16 max-sm:flex-col max-sm:items-center">
-          <h4 className="font-serif text-3xl text-sanJuanBlue">The People</h4>
+        <div className="flex justify-between mb-16 max-sm:flex-col max-sm:items-center max-md:mb-8">
+          <h4 className="font-serif text-3xl text-sanJuanBlue max-sm:text-2xl max-sm:mb-3">
+            The People
+          </h4>
           <p className="text-lightSanJuanBlue w-9/12 pl-20 max-sm:pl-0">
             We're all passionate about building a more efficient and inclusive
             financial infrastructure together. At PayAPI, we have diverse

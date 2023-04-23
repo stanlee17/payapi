@@ -7,13 +7,13 @@ import PAButtonLink from '../components/common/PAButtonLink';
 const Pricing = () => {
   return (
     <div>
-      <div className="container mx-auto px-6 my-16 relative ">
+      <div className="container mx-auto px-6 my-16 relative max-md:mb-5 max-md:mt-0">
         <img
           src={bgCircle}
           alt="bg-circle"
           className="absolute -top-[43rem] -right-[18rem] max-sm:-top-[33rem] max-sm:-right-[13rem]"
         />
-        <h1 className="font-serif text-6xl mb-5 text-sanJuanBlue py-5 max-lg:text-center max-lg:text-5xl relative z-50">
+        <h1 className="font-serif text-6xl mb-5 text-sanJuanBlue py-5 max-lg:text-center max-lg:text-5xl relative z-50 max-md:mb-0">
           Pricing
         </h1>
         <div className="flex items-center max-lg:text-center max-md:flex-col">

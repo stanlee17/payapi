@@ -4,8 +4,8 @@ import PAButton from '../common/PAButton';
 const ReadyToStart = () => {
   return (
     <div className="bg-linkWaterWhite relative z-50">
-      <div className="container mx-auto px-6 flex justify-between my-28 max-lg:flex-col max-lg:text-center max-sm:mt-5">
-        <h2 className="font-serif text-5xl text-sanJuanBlue max-lg:mb-10">
+      <div className="container mx-auto px-6 flex justify-between mt-16 mb-24 max-lg:flex-col max-lg:text-center max-md:mt-5">
+        <h2 className="font-serif text-5xl text-sanJuanBlue max-lg:mb-10 max-md:text-4xl max-sm:text-3xl">
           Ready to start?
         </h2>
         <form className="drop-shadow-primary">

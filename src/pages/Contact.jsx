@@ -13,7 +13,7 @@ import Nvidia from '../components/svg/Nvidia';
 const Contact = () => {
   return (
     <div>
-      <div className="container mx-auto px-6 my-16 relative max-xl:px-20 max-sm:px-6">
+      <div className="container mx-auto px-6 my-16 relative max-xl:px-20 max-sm:px-6 max-md:mb-5 max-md:mt-0">
         <img
           src={bgCircle}
           alt="bg-circle"
@@ -65,7 +65,7 @@ const Contact = () => {
                 Submit
               </PAButtonLink>
             </form>
-            <div className="flex flex-col justify-center max-xl:my-16">
+            <div className="flex flex-col justify-center max-xl:my-24 max-md:mb-5">
               <h3 className="ml-10 font-serif text-2xl text-lightSanJuanBlue w-3/4 max-xl:text-center max-xl:ml-0 max-xl:w-full max-xl:mb-5 max-sm:mb-8">
                 Join the thousands of innovators already building with us
               </h3>

@@ -10,7 +10,7 @@ const Product = () => {
   return (
     <div>
       <div className="container mx-auto px-6 py-16">
-        <div className="flex items-center py-48 max-lg:py-36 max-lg:flex-col">
+        <div className="flex items-center py-48 max-lg:py-36 max-lg:flex-col max-md:pt-5">
           <img
             src={EasyToImplement}
             alt="easy-to-implement"
