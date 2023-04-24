@@ -8,8 +8,8 @@ import Payments from '../../assets/home/desktop/icon-consumer-payments.svg';
 const WhyUs = () => {
   return (
     <div>
-      <div className="container mx-auto px-6 my-28 flex leading-loose max-sm:flex-col">
-        <div className="flex flex-col items-center text-center mr-16 max-lg:mr-8 max-sm:mr-0 max-sm:mb-16">
+      <div className="container mx-auto space-x-16 px-6 my-28 flex leading-loose max-lg:space-x-10 max-sm:space-x-0 max-sm:space-y-20 max-sm:flex-col">
+        <div className="flex flex-col items-center text-center">
           <img src={Finance} alt="personal-finances" className="mb-8" />
           <h4 className="mb-3 font-bold text-lg text-sanJuanBlue">
             Personal Finances
@@ -20,7 +20,7 @@ const WhyUs = () => {
             activities in your account.
           </p>
         </div>
-        <div className="flex flex-col items-center text-center mr-16 max-lg:mr-8 max-sm:mr-0 max-sm:mb-16">
+        <div className="flex flex-col items-center text-center">
           <img src={Banking} alt="banking-coverage" className="mb-8" />
           <h4 className="mb-3 font-bold text-lg text-sanJuanBlue">
             Banking & Coverage
@@ -31,7 +31,7 @@ const WhyUs = () => {
             accounts.
           </p>
         </div>
-        <div className="flex flex-col items-center text-center max-sm:mr-0">
+        <div className="flex flex-col items-center text-center">
           <img src={Payments} alt="consumer-payments" className="mb-8" />
           <h4 className="mb-3 font-bold text-lg text-sanJuanBlue">
             Consumer Payments

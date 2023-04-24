@@ -7,18 +7,19 @@ import PAButtonLink from '../components/common/PAButtonLink';
 const Pricing = () => {
   return (
     <div>
-      <div className="container mx-auto px-6 my-16 relative max-md:mb-5 max-md:mt-0">
+      <div className="container mx-auto px-6 my-16 relative max-md:mb-5 max-md:mt-5">
+        {/* Circle Background Pattern */}
         <img
           src={bgCircle}
           alt="bg-circle"
           className="absolute -top-[43rem] -right-[18rem] max-sm:-top-[33rem] max-sm:-right-[13rem]"
         />
-        <h1 className="font-serif text-6xl mb-5 text-sanJuanBlue py-5 max-lg:text-center max-lg:text-5xl relative z-50 max-md:mb-0">
+        <h1 className="font-serif text-6xl mb-2 text-sanJuanBlue max-lg:text-center max-lg:text-5xl relative z-50 max-md:mb-5 max-sm:text-4xl">
           Pricing
         </h1>
-        <div className="flex items-center max-lg:text-center max-md:flex-col">
-          <div className="mr-16 max-lg:mr-3">
-            <div className="my-7 max-md:my-12">
+        <div className="flex items-center space-x-16 max-lg:text-center max-md:flex-col max-sm:space-x-0 max-sm:space-y-10">
+          <div>
+            <div className="my-7 max-md:my-5">
               <h3 className="text-darkPink font-serif text-3xl my-5 max-lg:text-2xl">
                 Free Plan
               </h3>
@@ -65,14 +66,14 @@ const Pricing = () => {
               </div>
               <PAButtonLink
                 to="/"
-                className="font-bold border-sanJuanBlue text-sanJuanBlue mt-8"
+                className="font-bold border-sanJuanBlue text-sanJuanBlue mt-8 hover:bg-sanJuanBlue hover:text-linkWaterWhite"
               >
                 Request Access
               </PAButtonLink>
             </div>
           </div>
-          <div className="mr-16 max-lg:mr-3">
-            <div className="my-7 max-md:my-12">
+          <div>
+            <div className="my-7 max-md:my-5">
               <h3 className="text-darkPink font-serif text-3xl my-5 max-lg:text-2xl">
                 Basic Plan
               </h3>
@@ -119,14 +120,14 @@ const Pricing = () => {
               </div>
               <PAButtonLink
                 to="/"
-                className="font-bold border-sanJuanBlue text-sanJuanBlue mt-8"
+                className="font-bold border-sanJuanBlue text-sanJuanBlue mt-8 hover:bg-sanJuanBlue hover:text-linkWaterWhite"
               >
                 Request Access
               </PAButtonLink>
             </div>
           </div>
           <div>
-            <div className="my-7 max-md:my-12">
+            <div className="my-7 max-md:my-5">
               <h3 className="text-darkPink font-serif text-3xl my-5 max-lg:text-2xl">
                 Premium Plan
               </h3>
@@ -173,7 +174,7 @@ const Pricing = () => {
               </div>
               <PAButtonLink
                 to="/"
-                className="font-bold border-sanJuanBlue text-sanJuanBlue mt-8"
+                className="font-bold border-sanJuanBlue text-sanJuanBlue mt-8 hover:bg-sanJuanBlue hover:text-linkWaterWhite"
               >
                 Request Access
               </PAButtonLink>

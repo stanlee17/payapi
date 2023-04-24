@@ -61,7 +61,7 @@ const Contact = () => {
                   API
                 </label>
               </div>
-              <PAButtonLink className="text-sanJuanBlue border-sanJuanBlue font-bold px-[3.5rem]">
+              <PAButtonLink className="text-sanJuanBlue border-sanJuanBlue font-bold px-[3.5rem] hover:bg-sanJuanBlue hover:text-linkWaterWhite">
                 Submit
               </PAButtonLink>
             </form>
