@@ -4,9 +4,9 @@
 
 ## Preview Images
 
-![homepage](https://user-images.githubusercontent.com/48611390/244620376-f9aef352-d99e-4fa7-8a27-528876b851a2.png)
+![hero](https://user-images.githubusercontent.com/48611390/244680995-75179d82-fc19-4bb5-8dcb-77114041eaa2.png)
 
-![animeDetailsPage](https://user-images.githubusercontent.com/48611390/244620229-ddcd13f2-2ee6-4514-ad67-9e6ba09984eb.png)
+![aboutPage](https://user-images.githubusercontent.com/48611390/244681076-9b37590c-0909-4d78-8c08-cadd550f4cf8.png)
 
 ## Built with a bunch of thingssuch as:
 
@@ -18,5 +18,4 @@
 
 1. Clone this project
 2. `npm i` to install dependencies & node_modules
-3. `npm run dev` to start the application
-4. `npm run watch:sass` on the other terminal to run sass
+3. `npm start` to start the application
